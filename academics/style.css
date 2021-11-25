@@ -1,0 +1,104 @@
+*{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+body{
+    background-image: url("fw-mainbg.jpg");
+ background-position: center;
+ height: 100;
+ background-size: cover;
+ background-attachment: fixed;
+ background-repeat: no-repeat;
+ color: #000;
+}
+.navbar{
+    
+    height: 40px;
+    font-size: x-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 20px;
+    color: black;
+     padding-top: 10px;
+}
+
+.btn1 {
+    border: none;
+    border-radius: 10px;
+    height: 30px; width: 70px;
+    color: black;
+    font-size: medium;
+    
+    position: absolute;
+    top: 13px;
+    right: 20px;
+}
+.fwlogo {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    
+}
+#fwlogoname {
+    position: absolute;
+    top: 17px;
+    left: 55px;
+}
+ul {
+    
+    list-style-type: none;
+    margin-top: 10px;
+    margin-left:1px;
+    
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.5s ease;
+}
+
+ul li a:hover{
+    border-radius: 20px;
+    border: 1px solid ;
+}
+ul li.active a{
+    border: 1px solid ;
+    color: black; 
+    border-radius: 20px;   
+}
+img{
+    border-radius: 20px;
+}
+
+.enroll_box1{
+    margin-left: 300px; padding: 10px;
+    color: white;
+    background-color: black; opacity: 80%;
+    height: auto; width: 700px;
+    font-size: x-large;
+    border-radius: 20px;
+}
+
+.enroll_box2 {
+    margin-left: 300px; padding: 10px;
+    color: white;
+    background-color: black; opacity: 80%;
+    height: auto; width: 620px;
+    border-radius: 20px;
+    font-size: x-large;
+    padding-left: 100px;
+}
+.enroll_box3 {
+    margin-left: 300px; padding: 10px; margin-top: 60px;
+    color: white; background-color: #000; opacity: 80%;
+    height: auto; width: 715px;
+    border-radius: 20px;
+    font-size: x-large;
+}
+
